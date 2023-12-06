@@ -16,7 +16,7 @@ Ce projet a été effectué en conteneurisant une API réalisée avec Django Res
 - Liaison de la base de données à l'API en utilisant les fonctionnalités de liaison avec le paramètre depend_on dans le fichier docker-compose.yml.
 - Création de volumes pour la base de données afin de stocker les données de manière persistante.
 
-## Push de votre image sur une registry privée
+## Push de l'image sur une registry privée
 
 Enfin, le déploiement des conteneurs a été effectué en poussant l'image (conteneur) sur une registry Docker privée créée sur DockerHub. 
 
